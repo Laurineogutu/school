@@ -1,0 +1,39 @@
+{% extends 'schapp/base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="container-fluid">
+    <div class="row">
+    <div class="banner-img">
+    <img src="{% static 'schapp/img/jahmu.jpg' %}" alt="" style="width: 100%; padding-top: 30px; height: 40%;">
+        <div class="page-header">
+            <h1 class="text-center text-primary"> <strong>Contact Us</strong></h1>
+            <hr>
+        </div>
+    </div>
+</div>
+
+        <br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+       <form method="post">
+           {% csrf_token %}
+           {{ form|crispy }}
+           <div class="form-group">
+               <button type="submit" class="btn btn-info">Send Message</button>
+           </div>
+       </form>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    {% include 'schapp/footer.html' %}
+
+{% endblock %}

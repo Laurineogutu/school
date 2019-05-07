@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="477aa104-1772-4073-b793-109a8775b586" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/school$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1553861215842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2805">
+              <caret line="252" column="110" selection-start-line="252" selection-start-column="110" selection-end-line="252" selection-end-column="110" />
+              <folding>
+                <element signature="e#214#266#0#HTML" expanded="true" />
+                <element signature="e#339#378#0#HTML" expanded="true" />
+                <element signature="e#2275#2313#0#HTML" expanded="true" />
+                <element signature="e#3060#3098#0#HTML" expanded="true" />
+                <element signature="e#3566#3666#0#HTML" expanded="true" />
+                <element signature="e#3724#3751#0#HTML" expanded="true" />
+                <element signature="e#3816#3836#0#HTML" expanded="true" />
+                <element signature="e#5271#5309#0#HTML" expanded="true" />
+                <element signature="e#5752#5853#0#HTML" expanded="true" />
+                <element signature="e#5914#5941#0#HTML" expanded="true" />
+                <element signature="e#8843#8863#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/clubs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="94" selection-start-line="7" selection-start-column="94" selection-end-line="7" selection-end-column="94" />
+              <folding>
+                <element signature="e#948#1049#0#HTML" expanded="true" />
+                <element signature="e#828#848#0#HTML" expanded="true" />
+                <element signature="e#1572#1597#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/comment_form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/schapp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/schapp/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="743">
+              <caret line="103" column="36" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/sports.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="107" selection-start-line="7" selection-start-column="107" selection-end-line="7" selection-end-column="107" />
+              <folding>
+                <element signature="e#920#1021#0#HTML" expanded="true" />
+                <element signature="e#1103#1123#0#HTML" expanded="true" />
+                <element signature="e#1918#1943#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/schapp/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" column="80" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/departments.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+              <folding>
+                <element signature="e#296#348#0#HTML" expanded="true" />
+                <element signature="e#994#1095#0#HTML" expanded="true" />
+                <element signature="e#1177#1197#0#HTML" expanded="true" />
+                <element signature="e#1995#2020#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\Python\Documents\school</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/school_app/views.py" />
+        <option value="$PROJECT_DIR$/school_app/models.py" />
+        <option value="$PROJECT_DIR$/school_app/admin.py" />
+        <option value="$PROJECT_DIR$/school_app/urls.py" />
+        <option value="$PROJECT_DIR$/school_app/templates/index.html" />
+        <option value="$PROJECT_DIR$/success/urls.py" />
+        <option value="$PROJECT_DIR$/schapp/templates/schapp/footer.html" />
+        <option value="$PROJECT_DIR$/schapp/templates/schapp/blog.html" />
+        <option value="$PROJECT_DIR$/schapp/templates/schapp/login.html" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/schapp/templates/schapp/register.html" />
+        <option value="$PROJECT_DIR$/schapp/forms.py" />
+        <option value="$PROJECT_DIR$/success/settings.py" />
+        <option value="$PROJECT_DIR$/schapp/admin.py" />
+        <option value="$PROJECT_DIR$/schapp/templates/schapp/contact.html" />
+        <option value="$PROJECT_DIR$/schapp/urls.py" />
+        <option value="$PROJECT_DIR$/schapp/views.py" />
+        <option value="$PROJECT_DIR$/schapp/models.py" />
+        <option value="$PROJECT_DIR$/schapp/templates/schapp/comment_form.html" />
+        <option value="$PROJECT_DIR$/schapp/templates/schapp/departments.html" />
+        <option value="$PROJECT_DIR$/schapp/templates/schapp/sports.html" />
+        <option value="$PROJECT_DIR$/schapp/templates/schapp/clubs.html" />
+        <option value="$PROJECT_DIR$/schapp/templates/schapp/index.html" />
+        <option value="$PROJECT_DIR$/schapp/templates/schapp/base.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="774" />
+    <option name="y" value="173" />
+    <option name="width" value="545" />
+    <option name="height" value="558" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+              <item name="schapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+              <item name="schapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+              <item name="schapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="schapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+              <item name="schapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="schapp" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+              <item name="schapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+              <item name="schapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="schapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+              <item name="success" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Python\Documents\school\schapp\static\schapp\img" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.School">
+    <configuration name="Test: " type="DjangoTestsConfigurationType">
+      <module name="school" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="School" type="Python.DjangoServer" factoryName="Django server" editBeforeRun="true" singleton="false">
+      <module name="school" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="success.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Python\Desktop\python\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="127.0.0.1" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="true" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.School" />
+      <item itemvalue="Django tests.Test: " />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="477aa104-1772-4073-b793-109a8775b586" name="Default Changelist" comment="" />
+      <created>1551178874332</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551178874332</updated>
+      <workItem from="1551178876504" duration="1845000" />
+      <workItem from="1551180794550" duration="1835000" />
+      <workItem from="1551182726124" duration="123000" />
+      <workItem from="1551183130311" duration="296000" />
+      <workItem from="1551183467048" duration="688000" />
+      <workItem from="1551184208895" duration="283000" />
+      <workItem from="1551186005419" duration="1692000" />
+      <workItem from="1551187889929" duration="113000" />
+      <workItem from="1551264740942" duration="1549000" />
+      <workItem from="1551266547839" duration="1756000" />
+      <workItem from="1551268422522" duration="1590000" />
+      <workItem from="1551270248594" duration="1756000" />
+      <workItem from="1551272103892" duration="1659000" />
+      <workItem from="1551273931296" duration="2153000" />
+      <workItem from="1551352479337" duration="389000" />
+      <workItem from="1551352984891" duration="112000" />
+      <workItem from="1551353130994" duration="46000" />
+      <workItem from="1551353216777" duration="996000" />
+      <workItem from="1551354286260" duration="1515000" />
+      <workItem from="1551355925623" duration="139000" />
+      <workItem from="1551356111240" duration="461000" />
+      <workItem from="1551356623018" duration="492000" />
+      <workItem from="1551358360073" duration="1669000" />
+      <workItem from="1551360166744" duration="1018000" />
+      <workItem from="1551438800783" duration="1750000" />
+      <workItem from="1551440661541" duration="1794000" />
+      <workItem from="1551442574585" duration="1735000" />
+      <workItem from="1551445057464" duration="1285000" />
+      <workItem from="1551446495694" duration="1700000" />
+      <workItem from="1551448362276" duration="1709000" />
+      <workItem from="1551450157678" duration="1289000" />
+      <workItem from="1553078822274" duration="1273000" />
+      <workItem from="1553165312880" duration="699000" />
+      <workItem from="1553260783901" duration="239000" />
+      <workItem from="1553262189906" duration="1833000" />
+      <workItem from="1553264106921" duration="587000" />
+      <workItem from="1553695344008" duration="112000" />
+      <workItem from="1553859100278" duration="1563000" />
+      <workItem from="1553860862992" duration="2274000" />
+      <workItem from="1554115376793" duration="1894000" />
+      <workItem from="1554202017879" duration="677000" />
+      <workItem from="1554212464097" duration="768000" />
+      <workItem from="1554288524590" duration="634000" />
+      <workItem from="1554720238770" duration="641000" />
+      <workItem from="1554806291180" duration="1945000" />
+      <workItem from="1554987973397" duration="1224000" />
+      <workItem from="1555421368076" duration="171000" />
+      <workItem from="1555585109635" duration="1640000" />
+      <workItem from="1555586850934" duration="1291000" />
+      <workItem from="1555588831740" duration="1698000" />
+      <workItem from="1555590738555" duration="1228000" />
+      <workItem from="1555592290486" duration="169000" />
+      <workItem from="1555592590234" duration="737000" />
+      <workItem from="1556020688602" duration="1709000" />
+      <workItem from="1556022532626" duration="1730000" />
+      <workItem from="1556024365303" duration="825000" />
+      <workItem from="1556808212369" duration="1082000" />
+      <workItem from="1556810193611" duration="1713000" />
+      <workItem from="1556812052627" duration="1729000" />
+      <workItem from="1556813972286" duration="1642000" />
+      <workItem from="1556815850765" duration="1755000" />
+      <workItem from="1556818235642" duration="592000" />
+      <workItem from="1556821071353" duration="1535000" />
+      <workItem from="1557128991426" duration="1670000" />
+      <workItem from="1557130833935" duration="1691000" />
+      <workItem from="1557132651250" duration="1731000" />
+      <workItem from="1557134580246" duration="1752000" />
+      <workItem from="1557136428705" duration="1832000" />
+      <workItem from="1557138356950" duration="773000" />
+      <workItem from="1557149236875" duration="226000" />
+      <workItem from="1557211520370" duration="1007000" />
+      <workItem from="1557213046916" duration="1813000" />
+      <workItem from="1557215132908" duration="8622000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test__ - 2019.03.29 at 15h 06m 57s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="94163000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498062" visible="true" weight="0.245702" />
+      <window_info id="Structure" order="1" sideWeight="0.501938" side_tool="true" weight="0.2965616" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30551818" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32974428" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.33243608" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32974428" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3295129" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3295129" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/school_app/urls.py" />
+    <entry file="file://$PROJECT_DIR$/school_app/admin.py" />
+    <entry file="file://$PROJECT_DIR$/school_app/views.py" />
+    <entry file="file://$PROJECT_DIR$/school_app/models.py" />
+    <entry file="file://$USER_HOME$/Downloads/zaleggo-prac-db-master/world.sql" />
+    <entry file="file://$PROJECT_DIR$/school_app/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/schapp/static/schapp/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schapp/static/schapp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schapp/migrations/0005_anthem_mission_motto_vision.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schapp/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schapp/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/blog.html" />
+    <entry file="file://$PROJECT_DIR$/success/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="27" column="85" selection-start-line="27" selection-start-column="85" selection-end-line="27" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/th_pm48wt1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/th.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schapp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="114" selection-start-line="1" selection-start-column="114" selection-end-line="1" selection-end-column="114" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/th_KL9VmV6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/eating.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/success/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="125" column="32" selection-start-line="125" selection-start-column="32" selection-end-line="125" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schapp/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/comment_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="80" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="103" column="36" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/sports.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="107" selection-start-line="7" selection-start-column="107" selection-end-line="7" selection-end-column="107" />
+          <folding>
+            <element signature="e#920#1021#0#HTML" expanded="true" />
+            <element signature="e#1103#1123#0#HTML" expanded="true" />
+            <element signature="e#1918#1943#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/departments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <folding>
+            <element signature="e#296#348#0#HTML" expanded="true" />
+            <element signature="e#994#1095#0#HTML" expanded="true" />
+            <element signature="e#1177#1197#0#HTML" expanded="true" />
+            <element signature="e#1995#2020#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/clubs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="94" selection-start-line="7" selection-start-column="94" selection-end-line="7" selection-end-column="94" />
+          <folding>
+            <element signature="e#948#1049#0#HTML" expanded="true" />
+            <element signature="e#828#848#0#HTML" expanded="true" />
+            <element signature="e#1572#1597#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2805">
+          <caret line="252" column="110" selection-start-line="252" selection-start-column="110" selection-end-line="252" selection-end-column="110" />
+          <folding>
+            <element signature="e#214#266#0#HTML" expanded="true" />
+            <element signature="e#339#378#0#HTML" expanded="true" />
+            <element signature="e#2275#2313#0#HTML" expanded="true" />
+            <element signature="e#3060#3098#0#HTML" expanded="true" />
+            <element signature="e#3566#3666#0#HTML" expanded="true" />
+            <element signature="e#3724#3751#0#HTML" expanded="true" />
+            <element signature="e#3816#3836#0#HTML" expanded="true" />
+            <element signature="e#5271#5309#0#HTML" expanded="true" />
+            <element signature="e#5752#5853#0#HTML" expanded="true" />
+            <element signature="e#5914#5941#0#HTML" expanded="true" />
+            <element signature="e#8843#8863#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

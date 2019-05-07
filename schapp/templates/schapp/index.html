@@ -1,0 +1,303 @@
+{% extends 'schapp/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container-fluid">
+<div class="row">
+    <div class="banner-img">
+    <img src="{% static 'schapp/img/school_image.jpg' %}" alt="" style="width: 100%; padding-top: 30px; height: 50%;">
+    </div>
+</div>
+
+<div class="container-fluid">
+
+<!-- About Section -->
+<div class="row" style="border-bottom: 1px solid grey;">
+    <br>
+{%  if missions %}
+    {% for mission in missions %}
+    <div class="col-md-3">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h3 class="text-primary"><i class="fa fa-graduation-cap"></i>
+                    {{ mission.title }}
+                </h3>
+            </div>
+            <div class="panel-body">
+                <p>{{ mission.desc }}</p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+{% endif %}
+
+
+{% if visions %}
+{% for vision in visions %}
+    <div class="col-md-3">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h3 class="text-primary"><i class="fa fa-balance-scale"></i>
+                    Vision
+                </h3>
+            </div>
+            <div class="panel-body">
+                <p>{{ vision.desc }}</p>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+{% endif %}
+
+
+{% if anthems %}
+{% for anthem in anthems %}
+    <div class="col-md-3">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h3 class="text-primary"><i class="fa fa-male"></i>
+                    Anthem
+                </h3>
+            </div>
+            <div class="panel-body">
+                <p>{{ anthem.desc }}</p>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+{% endif %}
+
+
+{% if mottos %}
+{% for motto in mottos %}
+    <div class="col-md-3">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h3 class="text-primary"><i class="fa fa-school"></i>
+                    Motto
+                </h3>
+            </div>
+            <div class="panel-body">
+                <p>{{ motto.desc }}</p>
+            </div>
+
+        </div>
+    </div>
+{% endfor %}
+{% endif %}
+</div>
+
+
+    <!-- End of About -->
+
+       <!-- Staff section -->
+    <div class="row"style="border-bottom: 1px solid grey;" >
+        <div class="page-header">
+            <h3 class="text-center text-primary text-head"><b>Our Staff</b></h3>
+        </div>
+
+        {% for staff in staffs %}
+        <div class="col-md-3">
+            <img src="{{ staff.staff_img.url }}" class="img img-responsive img img-circle" alt="" style="height: 200px; width: 200px;">
+            <div class="staff-text">
+                <hr>
+                <h4 class="text-primary">{{ staff.name }}</h4>
+                <h5 class="text-primary">{{ staff.position }}</h5>
+                <br>
+                <p>{{ staff.staff_desc }}</p>
+                <hr>
+            </div>
+        </div>
+
+        {% endfor %}
+
+    </div>
+    <!-- End of Staff -->
+
+    <!-- Events -->
+    <div class="row" style="border-bottom: 1px solid grey;">
+        <div class="page-header">
+            <h3 class="text-primary text-center text-head"><b>Events</b></h3>
+        </div>
+
+        {% if events %}
+            {% for event in events %}
+        <div class="col-md-3">
+        <div class="panel panel-primary">
+            <div class="panel-body">
+                <img src="{{ event.image.url }}" alt="" class="" style="height: 250px; width: 250px;">
+                <hr>
+                <h3 class="text-primary">{{ event.title }} <small class="text-primary" style="float: right;"> {{ event.date }}</small></h3>
+                <p style="line-height: 1.2em; height: 3.6em; overflow: hidden; text-overflow: ellipsis; max-width: 90%">{{ event.desc }}</p>
+            </div>
+            <div style="padding-left: 10px;">
+                <button type="button" class="btn btn-success"  style="margin: 4px;" data-toggle="modal" data-target="#Modal-{{ event.id }}">More</button>
+            </div>
+
+            <!-- Modal -->
+                    <div class="modal fade" id="Modal-{{ event.id }}" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header" style="padding:5px 5px;">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="text-center" style="color: darkslategrey;"><b>{{ event.title }}</b></h4>
+
+
+                                </div>
+                                <div class="modal-body" style="padding:40px 5px;">
+                                    <p>
+                                        {{ event.desc }}
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+            <!--End Modal-->
+
+        </div>
+        </div>
+            {% endfor %}
+        {% endif %}
+
+
+
+    </div>
+
+    <!-- End of Events -->
+
+
+    <!-- Blog section -->
+    <div class="row" style="border-bottom: 1px solid grey;">
+        <div class="page-header">
+            <h3 class="text-center text-primary text-head"><b>Blog</b></h3>
+        </div>
+
+        {% if posts %}
+            {% for post in posts %}
+        <div class="col-md-4">
+        <div class="panel panel-primary">
+            <div class="panel-body">
+                <img src="{{ post.cover_image.url }}" alt="" class="img img-thumbnail" style="height: 250px; width: 328px;">
+                <hr>
+                <h3 class="text-primary">{{ post.title }} <small class="text-primary" style="float: right;">{{ post.date }}</small></h3>
+                <p style="line-height: 1.2em; height: 3.6em; overflow: hidden; text-overflow: ellipsis; max-width: 90%;">{{ post.content }}</p>
+
+            </div>
+            <div style="padding-left: 10px;">
+                <button type="button" class="btn btn-success" style="margin: 4px;" data-toggle="modal" data-target="#blogmodal-{{ post.id }}">More</button>
+                <a href="{% url 'schapp:comment' post.id %}" class="btn btn-info">Comment</a>
+            </div>
+
+            <!-- Modal -->
+                    <div class="modal fade" id="blogmodal-{{ post.id }}" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header" style="padding:5px 5px;">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="text-center" style="color: darkslategrey;"><b>{{ post.title }}</b></h4>
+
+
+                                </div>
+                                <div class="modal-body" style="padding:40px 5px;">
+                                    <p>{{ post.content }}</p>
+                                </div>
+
+                                <div class="modal-footer">
+                                    {% if post.comment_set %}
+                                        <table class="table">
+                                        <tr><thead><th>Comments</th></thead></tr>
+                                        {% for c in post.comment_set.all %}
+                                            <tr>
+                                            <td>
+                                            <p style="float: left;">{{ c.Comment }}</p>
+                                                <small style="float: right;">{{ c.date }}</small>
+                                            </td>
+                                            </tr>
+                                        {% endfor %}
+                                        </table>
+                                    {% endif %}
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+            <!--End Modal-->
+
+
+        </div>
+        </div>
+            {% endfor %}
+        {% endif %}
+
+
+
+    </div>
+    <!-- End of Blog -->
+
+<!-- Location & contact form -->
+    <div class="row">
+        <div class="page-header">
+            <h3 class="text-center text-primary text-head"><b>Get in Touch</b></h3>
+        </div>
+        <div class="col-md-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <p class="lead1">Location</p>
+            <hr>
+            <img src="{% static 'schapp/img/muthetheni.png' %}" class="img img-responsive" style="margin: 3px;">
+
+
+            </div>
+
+
+            <div class="col-md-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <p class="lead1">Find Us...</p>
+                <hr>
+
+                <div class="col-md-6 text-center">
+                    <br>
+                    <br>
+                    <i class="fa fa-map-marker fa-4x"></i>
+                    <h4>Address/Street:</h4>
+                    <p id="acts">P.O BOX: 16-90133</p>
+                    <p id="acts">Mwala, <br> Machakos</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <br>
+                    <br>
+                    <i class="fa fa-mobile fa-4x"></i>
+                    <h4>Phone Number:</h4>
+                    <p id="acts">+254(0726290053)</p>
+                </div>
+
+                <div class="col-md-12">
+                    <br>
+                    <br>
+                    <br>
+                    <hr>
+                    <p class="text-center" id="acts">
+                        Students should work harder and smatter to make the world a better place.
+                    </p>
+                    <p class="text-center" id="italic">~Laura-bongi</p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <!-- End location & contact section-->
+
+
+</div>
+    {% include 'schapp/footer.html' %}
+    <script src="{% static 'schapp/Muthetheni/main.js' %}"></script>
+{% endblock %}

@@ -1,0 +1,65 @@
+{% extends 'schapp/base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="container-fluid">
+    <div class="row">
+    <div class="banner-img">
+    <img src="{% static 'schapp/img/sport.jpg' %}" alt="" style="width: 100%; padding-top: 20px; height: 50%;">
+
+        <div class="page-header">
+            <h1 class="text-center text-primary"> <strong>Sports</strong></h1>
+        </div>
+    </div>
+</div>
+
+    <br>
+        {% if sprts %}
+            {% for sport in sprts %}
+    <div class="col-sm-3">
+        <div class="panel panel-primary">
+            <div class="" style="padding-left: 18px;">
+
+            </div>
+            <div class="panel-body">
+               <hr>
+                <h3 class="text-primary">{{ sport.name }} <small class="text-primary" style="float: right;">{{ sport.coach }}</small></h3>
+                <p style="line-height: 1.2em; height: 3.6em; overflow: hidden; text-overflow: ellipsis; max-width: 90%;">{{ sport.desc }}</p>
+
+
+                <button type="button" class="btn btn-success" style="margin: 4px;" data-toggle="modal" data-target="#Modal-{{ sport.id }}">More</button>
+
+                <!-- Modal -->
+                    <div class="modal fade" id="Modal-{{ sport.id }}" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header" style="padding:5px 5px;">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="text-center" style="color: darkslategrey;"><b>{{ sport.name }}</b></h4>
+
+
+                                </div>
+                                <div class="modal-body" style="padding:40px 5px;">
+                                    <p>{{ sport.desc }}</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+            <!--End Modal-->
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+            {% endfor %}
+    {% endif %}
+    </div>
+    {% include 'schapp/footer.html' %}
+{% endblock %}
