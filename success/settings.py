@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'schapp',
     'crispy_forms',
+    'Register',
 ]
 
 MIDDLEWARE = [
@@ -124,3 +125,5 @@ STATIC_URL = '/static/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 CRISPY_TEMPLATE_PACK='bootstrap4'
+
+AUTH_USER_MODEL = 'Register.User'
