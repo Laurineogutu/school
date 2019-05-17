@@ -2,26 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="477aa104-1772-4073-b793-109a8775b586" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Register/decorators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Register/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Register/templates/Register/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Register/templates/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Register/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Register/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Register/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Register/templates/registration/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Register/templates/registration/signup_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Register/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Register/views/classroom.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Register/views/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Register/views/students.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Register/views/teachers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Register/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/schapp/templates/schapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/schapp/templates/schapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/schapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/success/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/success/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/success/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/success/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Register/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Register/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Register/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Register/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Register/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Register/migrations/0002_student_form.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Register/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Register/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Register/templates/Register/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Register/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Register/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Register/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Register/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Register/views/classroom.py" beforeDir="false" afterPath="$PROJECT_DIR$/Register/views/classroom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Register/views/students.py" beforeDir="false" afterPath="$PROJECT_DIR$/Register/views/students.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Register/views/teachers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Register/views/teachers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schapp/templates/schapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/schapp/templates/schapp/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schapp/templates/schapp/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/schapp/templates/schapp/contact.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Register/views/classroom.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -64,12 +60,39 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Register/models.py">
+        <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+            <state relative-caret-position="406">
+              <caret line="59" column="110" selection-start-line="59" selection-start-column="110" selection-end-line="59" selection-end-column="110" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="276" column="22" lean-forward="true" selection-start-line="276" selection-start-column="22" selection-end-line="276" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/schapp/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <element signature="e#0#51#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Register/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -88,42 +111,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Register/forms.py">
+        <entry file="file://$PROJECT_DIR$/Register/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="442">
+              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
               <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Register/templates/registration/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Register/templates/registration/signup.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Register/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#0#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,6 +134,9 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>submit</find>
+    </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
@@ -154,55 +150,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/school_app/views.py" />
-        <option value="$PROJECT_DIR$/school_app/models.py" />
-        <option value="$PROJECT_DIR$/school_app/admin.py" />
-        <option value="$PROJECT_DIR$/school_app/urls.py" />
-        <option value="$PROJECT_DIR$/school_app/templates/index.html" />
-        <option value="$PROJECT_DIR$/schapp/templates/schapp/footer.html" />
-        <option value="$PROJECT_DIR$/schapp/templates/schapp/blog.html" />
-        <option value="$PROJECT_DIR$/schapp/templates/schapp/login.html" />
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/schapp/templates/schapp/register.html" />
         <option value="$PROJECT_DIR$/schapp/forms.py" />
         <option value="$PROJECT_DIR$/schapp/admin.py" />
-        <option value="$PROJECT_DIR$/schapp/templates/schapp/contact.html" />
         <option value="$PROJECT_DIR$/schapp/views.py" />
         <option value="$PROJECT_DIR$/schapp/models.py" />
         <option value="$PROJECT_DIR$/schapp/templates/schapp/comment_form.html" />
         <option value="$PROJECT_DIR$/schapp/templates/schapp/departments.html" />
         <option value="$PROJECT_DIR$/schapp/templates/schapp/sports.html" />
         <option value="$PROJECT_DIR$/schapp/templates/schapp/clubs.html" />
-        <option value="$PROJECT_DIR$/schapp/templates/schapp/base.html" />
         <option value="$PROJECT_DIR$/Register/views/package.json" />
         <option value="$PROJECT_DIR$/Register/views/decorators.py" />
         <option value="$PROJECT_DIR$/schapp/urls.py" />
-        <option value="$PROJECT_DIR$/Register/views/teachers.py" />
         <option value="$PROJECT_DIR$/Register/views/forms.py" />
-        <option value="$PROJECT_DIR$/Register/views/students.py" />
-        <option value="$PROJECT_DIR$/Register/templates/index.html" />
         <option value="$PROJECT_DIR$/Register/ty.py" />
-        <option value="$PROJECT_DIR$/Register/admin.py" />
         <option value="$PROJECT_DIR$/success/urls.py" />
-        <option value="$PROJECT_DIR$/Register/urls.py" />
-        <option value="$PROJECT_DIR$/Register/forms.py" />
         <option value="$PROJECT_DIR$/success/settings.py" />
-        <option value="$PROJECT_DIR$/Register/views/classroom.py" />
         <option value="$PROJECT_DIR$/Register/templates/base.html" />
-        <option value="$PROJECT_DIR$/Register/templates/Register/home.html" />
         <option value="$PROJECT_DIR$/Register/templates/Register/login.html" />
         <option value="$PROJECT_DIR$/Register/templates/Register/signup.html" />
         <option value="$PROJECT_DIR$/Register/templates/Register/signup_form.html" />
+        <option value="$PROJECT_DIR$/Register/templates/Register/teachers.html" />
         <option value="$PROJECT_DIR$/schapp/templates/schapp/index.html" />
+        <option value="$PROJECT_DIR$/Register/templates/index.html" />
+        <option value="$PROJECT_DIR$/Register/templates/Register/home.html" />
+        <option value="$PROJECT_DIR$/Register/templates/students/interests_form.html" />
+        <option value="$PROJECT_DIR$/Register/templates/students/subjects_form.html" />
+        <option value="$PROJECT_DIR$/Register/templates/students/_header.html" />
+        <option value="$PROJECT_DIR$/Register/templates/students/quiz_list.html" />
+        <option value="$PROJECT_DIR$/Register/templates/students/take_quiz_form.html" />
+        <option value="$PROJECT_DIR$/Register/templates/students/taken_quiz_list.html" />
+        <option value="$PROJECT_DIR$/Register/templates/teachers/question_add_form.html" />
+        <option value="$PROJECT_DIR$/Register/templates/teachers/question_change_form.html" />
+        <option value="$PROJECT_DIR$/Register/templates/teachers/question_delete_confirm.html" />
+        <option value="$PROJECT_DIR$/Register/templates/teachers/quiz_add_form.html" />
+        <option value="$PROJECT_DIR$/Register/templates/teachers/quiz_change_form.html" />
+        <option value="$PROJECT_DIR$/Register/templates/teachers/quiz_change_list.html" />
+        <option value="$PROJECT_DIR$/Register/templates/teachers/quiz_delete_confirm.html" />
+        <option value="$PROJECT_DIR$/Register/templates/teachers/quiz_results.html" />
+        <option value="$PROJECT_DIR$/Register/migrations/0002_create_initial_subjects.py" />
+        <option value="$PROJECT_DIR$/Register/admin.py" />
+        <option value="$PROJECT_DIR$/Register/templates/home.html" />
+        <option value="$PROJECT_DIR$/Register/migrations/0001_initial.py" />
+        <option value="$PROJECT_DIR$/Register/urls.py" />
         <option value="$PROJECT_DIR$/Register/models.py" />
+        <option value="$PROJECT_DIR$/Register/forms.py" />
+        <option value="$PROJECT_DIR$/Register/views/teachers.py" />
+        <option value="$PROJECT_DIR$/Register/views/students.py" />
+        <option value="$PROJECT_DIR$/Register/views/classroom.py" />
+        <option value="$PROJECT_DIR$/schapp/templates/schapp/base.html" />
+        <option value="$PROJECT_DIR$/schapp/templates/schapp/contact.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="774" />
-    <option name="y" value="173" />
+    <option name="x" value="907" />
+    <option name="y" value="40" />
     <option name="width" value="545" />
-    <option name="height" value="558" />
+    <option name="height" value="528" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -246,6 +252,13 @@
               <item name="schapp" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+              <item name="schapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="schapp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -258,6 +271,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -417,7 +431,10 @@
       <workItem from="1557297554713" duration="4680000" />
       <workItem from="1557362388574" duration="23144000" />
       <workItem from="1557822815533" duration="10068000" />
-      <workItem from="1557904617935" duration="503000" />
+      <workItem from="1557904617935" duration="19823000" />
+      <workItem from="1557985985348" duration="3187000" />
+      <workItem from="1557989318682" duration="23998000" />
+      <workItem from="1558072911353" duration="3082000" />
     </task>
     <servers />
   </component>
@@ -427,13 +444,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133142000" />
+    <option name="totallyTimeSpent" value="182729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498062" visible="true" weight="0.19985673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498062" visible="true" weight="0.14469914" />
       <window_info id="Structure" order="1" sideWeight="0.501938" side_tool="true" weight="0.2965616" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -447,7 +464,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32974428" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.25706595" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4091521" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32974428" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -455,111 +472,98 @@
       <window_info anchor="right" id="SciView" order="3" weight="0.3295129" />
       <window_info anchor="right" id="Database" order="4" weight="0.3295129" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498062" visible="true" weight="0.14469914" />
+      <window_info id="Structure" order="1" sideWeight="0.501938" side_tool="true" weight="0.2965616" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30551818" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32974428" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4091521" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32974428" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3295129" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3295129" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/schapp/static/schapp/css/style.css">
+    <entry file="file://$PROJECT_DIR$/success/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schenv/Lib/site-packages/django/contrib/auth/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/templates/Register/teachers.html" />
+    <entry file="file://$PROJECT_DIR$/Register/templates/Register/home.html" />
+    <entry file="file://$PROJECT_DIR$/Register/migrations/0003_auto_20190515_1219.py" />
+    <entry file="file://$PROJECT_DIR$/Register/static/css/app.css" />
+    <entry file="file://$PROJECT_DIR$/Register/templates/students/interests_form.html" />
+    <entry file="file://$PROJECT_DIR$/Register/templates/students/_header.html" />
+    <entry file="file://$PROJECT_DIR$/Register/templates/students/subjects_form.html" />
+    <entry file="file://$PROJECT_DIR$/Register/templates/teachers/question_add_form.html" />
+    <entry file="file://$PROJECT_DIR$/Register/templates/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/schapp/migrations/0005_anthem_mission_motto_vision.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schapp/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/footer.html">
+    <entry file="file://$PROJECT_DIR$/Register/templates/teachers/question_delete_confirm.html" />
+    <entry file="file://$PROJECT_DIR$/Register/templates/teachers/question_change_form.html" />
+    <entry file="file://$PROJECT_DIR$/success/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/blog.html" />
-    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/register.html" />
-    <entry file="file://$PROJECT_DIR$/media/th_pm48wt1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/th.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/th_KL9VmV6.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/eating.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/clubs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="94" selection-start-line="7" selection-start-column="94" selection-end-line="7" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schapp/static/schapp/img/staff.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/sports.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="107" selection-start-line="7" selection-start-column="107" selection-end-line="7" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/comment_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/login.html" />
-    <entry file="file://$PROJECT_DIR$/Register/views/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Register/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Register/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Register/views/forms.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-303403375/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1637">
-          <caret line="741" column="8" selection-start-line="741" selection-start-column="8" selection-end-line="741" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schapp/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/departments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-379">
-          <caret line="7" column="72" lean-forward="true" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
-          <folding>
-            <element signature="e#303#355#0#HTML" expanded="true" />
-            <element signature="e#674#701#0#HTML" expanded="true" />
-            <element signature="e#1112#1132#0#HTML" expanded="true" />
-            <element signature="e#1927#1952#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="365">
+          <caret line="126" column="33" lean-forward="true" selection-start-line="126" selection-start-column="33" selection-end-line="126" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -573,21 +577,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Register/ty.py" />
-    <entry file="file://$PROJECT_DIR$/schapp/forms.py">
+    <entry file="file://$PROJECT_DIR$/Register/templates/students/taken_test_list.html" />
+    <entry file="file://$PROJECT_DIR$/Register/templates/students/take_test_form.html" />
+    <entry file="file://$PROJECT_DIR$/Register/templates/students/test_list.html" />
+    <entry file="file://$PROJECT_DIR$/Register/templates/teachers/test_add_form.html" />
+    <entry file="file://$PROJECT_DIR$/Register/templates/teachers/test_change_form.html" />
+    <entry file="file://$PROJECT_DIR$/Register/templates/teachers/test_change_list.html" />
+    <entry file="file://$PROJECT_DIR$/Register/templates/teachers/test_delete_confirm.html" />
+    <entry file="file://$PROJECT_DIR$/Register/templates/teachers/test_results.html" />
+    <entry file="file://$PROJECT_DIR$/Register/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="51" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="55" />
+        <state relative-caret-position="335">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/sports.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding>
+            <element signature="e#773#794#0#HTML" expanded="true" />
+            <element signature="e#845#946#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/clubs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="44" column="63" lean-forward="true" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="63" />
+          <folding>
+            <element signature="e#763#784#0#HTML" expanded="true" />
+            <element signature="e#1830#1855#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/templates/registration/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/templates/registration/signup.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/templates/registration/signup_form.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/migrations/0002_create_initial_subjects.py" />
+    <entry file="file://$PROJECT_DIR$/Register/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="142" column="10" lean-forward="true" selection-start-line="142" selection-start-column="10" selection-end-line="142" selection-end-column="10" />
+          <folding>
+            <element signature="e#49#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/views/teachers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/contact.html">
+    <entry file="file://$PROJECT_DIR$/Register/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/views/students.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -601,191 +737,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/schenv/Lib/site-packages/django/db/models/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6494">
-          <caret line="504" column="8" selection-start-line="504" selection-start-column="8" selection-end-line="504" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Register/views.py" />
-    <entry file="file://$PROJECT_DIR$/success/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/success/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1436">
-          <caret line="128" column="32" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Register/templates/Register/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Register/templates/registration/signup_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Register/views/students.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Register/views/teachers.py">
+    <entry file="file://$PROJECT_DIR$/Register/views/classroom.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="95" column="62" selection-start-line="95" selection-start-column="62" selection-end-line="95" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="694">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-646">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Register/decorators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Register/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Register/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Register/views/classroom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Register/models.py">
+    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="406">
+          <caret line="59" column="110" selection-start-line="59" selection-start-column="110" selection-end-line="59" selection-end-column="110" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Register/urls.py">
+    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="735">
+          <caret line="276" column="22" lean-forward="true" selection-start-line="276" selection-start-column="22" selection-end-line="276" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Register/forms.py">
+    <entry file="file://$PROJECT_DIR$/schapp/templates/schapp/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Register/templates/registration/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Register/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Register/templates/registration/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>

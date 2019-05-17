@@ -5,7 +5,6 @@ from django.views.generic import CreateView
 from ..forms import StudentSignUpForm
 from ..models import User
 
-
 class StudentSignUpView(CreateView):
     model = User
     form_class = StudentSignUpForm
@@ -18,4 +17,4 @@ class StudentSignUpView(CreateView):
     def form_valid(self, form):
         user = form.save()
         login(self.request, user)
-        return redirect('students:quiz_list')
+        return redirect('student:quiz_list')

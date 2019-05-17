@@ -2,8 +2,8 @@ from django.contrib.auth import login
 from django.shortcuts import redirect
 from django.views.generic import CreateView
 
-from ..forms import TeacherSignUpForm
-from ..models import User
+from Register.forms import TeacherSignUpForm
+from Register.models import User
 
 
 class TeacherSignUpView(CreateView):

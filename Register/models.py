@@ -8,6 +8,7 @@ class User(AbstractUser):
     is_student = models.BooleanField(default=False)
     is_teacher = models.BooleanField(default=False)
 
+
 FORM=(
     ('Form1', 'form1'),
     ('Form2', 'form2'),
@@ -16,14 +17,34 @@ FORM=(
     ('Unknown', 'unknown'),
 )
 
+
 class Student(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE, primary_key=True)
     name = models.CharField(max_length=30)
-    form = models.CharField(choices=FORM,max_length=10,default='Unknown')
+    form = models.CharField(choices=FORM,max_length=10,default='unknown')
 
     def __str__(self):
         return self.user
 
+
+class Subject(models.Model):
+    student = models.CharField(max_length=30)
+
+
+    def __str__(self):
+        return self.student
+
+
+""""
+class Profile(models.Model):
+    name = models.CharField(max_length=30)
+    position = models.CharField(max_length=20)
+    image = models.FileField()
+    details = models.TextField()
+
+    def __str__(self):
+        return self.name
+"""
 
 """
 class Subject(models.Model):
